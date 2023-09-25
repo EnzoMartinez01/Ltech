@@ -172,8 +172,14 @@ body {
     .main1 h1{
         font-size: 2em;
     }
+    .whatsapp{
+        font-size: 1.5em;
+    }
 }
 @media screen and (max-width:421px){
+    .main1{
+        padding: 1em 0 0 0;
+    }
     .whatsapp{
         font-size: 1.5em;
         width: 100%;
@@ -211,6 +217,14 @@ body {
         font-size: 1.5em;
     }
     .whatsapp{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width:300px){
+    .main1 h1{
+        font-size: 1.2em;
+    }
+    .main1 p{
         font-size: 1em;
     }
 }

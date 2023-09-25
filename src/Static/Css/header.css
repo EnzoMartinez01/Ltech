@@ -232,3 +232,8 @@ header {
         font-size: 3em;
     }
   }
+  @media screen and (max-width:300px){
+    .logo a h1{
+      font-size: 2em;
+    }
+  }
