@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Judson&family=Lora&family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
+body{
+    font-family: 'Judson', serif;
+}
+.section1-contact{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10em;
+    display: flex;
+    background: #D9D9D9;
+    justify-content: space-around;
+    align-items: center;
+}
+.section1-contact-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.section1-contact-text h1{
+    font-size: 6em;
+    text-align: center;
+}
+.section1-contact-text p{
+    padding: 0 0 0 3em;
+    font-size: 2.7em;
+}
+.section1-contact-img{
+    padding: 3em;
+}
+.section1-contact-img img{
+    width: 90%;
+    mix-blend-mode: darken;
+}
+/*  Responsive  */
+@media screen and (max-width:1000px){
+    .section1-contact-img{
+        width: 100%;
+        position: relative;
+    }
+    .section1-contact-img img{
+        width: 100%;
+        opacity: 0.3;
+    }
+    .section1-contact-text{
+        opacity: 1;
+        position: absolute;
+        width: 70%;
+    }
+}
+@media screen and (max-width:750px){
+    .section1-contact-text{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 640px){
+    .section1-contact-text p{
+        padding: 0 0 0 1em;
+    }
+}
+@media screen and (max-width:490px){
+    .section1-contact-text{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 430px){
+    .section1-contact-text h1{
+        font-size: 5em;
+    }
+    .section1-contact-text p{
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:330px){
+    .section1-contact-text h1{
+        font-size: 4em;
+    }
+    .section1-contact-text p{
+        font-size: 1em;
+    }
+}
+
+/*  Formulario  */
+.section2-contact{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.section2-contact-title{
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #1D1D1D;
+    color: #fff;
+}
+.section2-contact-form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-items: center;
+    gap: 1em;
+    padding: 3em;
+}
+.section2-contact-form form{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.section2-contact-form form input{
+    margin: 1em;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 1em;
+    padding: 1em;
+}
+.input-name-lastname{
+    width: 45%;
+    height: 3.5em;
+}
+.input-email-telefono{
+    width: 45%;
+    height: 3.5em;
+}
+.input-message{
+    width: 94%;
+    height: 10em;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 1em;
+}
+.section2-contact-form button{
+    width: 15%;
+    margin-top: 2em;
+    height: 2em;
+    border: none;
+}
+
+.buttonSub{
+    background: rgba(0, 0, 0, 0.81);
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttonRes{
+    background: #E6E6E6;
+    font-size: 1.3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*  Responsive   */
+@media screen and (max-width: 735px){
+    .section2-contact-form{
+        grid-template-columns: none;
+    }
+    .section2-contact-form form input{
+        width: 95%;
+    }
+    .section2-contact-form button{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 600px){
+    .section2-contact-form{
+        padding: 0;
+    }
+    .section2-contact-form form input{
+        width: 80%;
+    }
+    .section2-contact-form textarea{
+        width: 80%;
+    }
+}
+
+.construccion{
+    width: 100%;
+    height: 5em;
+    font-size: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 2em;
+}

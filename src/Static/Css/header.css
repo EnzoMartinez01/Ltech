@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Judson&family=Lora&family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Judson', serif;
+}
+
+header {
+    background-color: #F0F0F0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    overflow: hidden;
+    margin-bottom: 5em;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo a h1 {
+    color: black;
+    font-size: 4.5em;
+    font-weight: 700;
+    letter-spacing: 1.30px;
+    word-wrap: break-word;
+    padding: 0 0 0 0.5em;
+}
+.logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.logoimg {
+    width: 50%;
+    mix-blend-mode: darken;
+}
+
+.logo button {
+    border: none;
+    text-align: right;
+  }
+  
+  .menu .btn-menu {
+    display: none;
+    background: none;
+  }
+
+.enlaces{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.enlaces Link{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 700;
+}
+.enlaces a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 2em;
+    font-weight: 700;
+}
+.enlaces a:hover{
+    color: #A5C3DE;
+}
+
+
+/* PROPIEDADES PARA DISP MOV */
+@media screen and (max-width:1250px){
+    .enlaces{
+        width: 80%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1190px) and (min-height: 900px) {
+    header .menu {
+      width: 100%;
+  
+      display: flex;
+  
+      flex-direction: column;
+    }
+  
+    header .menu .logo {
+      width: 100%;
+  
+      display: flex;
+  
+      flex-direction: row;
+  
+      justify-content: space-between;
+  
+      margin-right: 0em;
+  
+      margin-left: 0em;
+  
+      padding: 1em;
+    }
+  
+    .menu .logo p {
+      display: none;
+    }
+  
+    header .menu .enlaces {
+      display: flex;
+  
+      flex-direction: column;
+  
+      text-align: center;
+  
+      width: 100%;
+    }
+  
+    header .menu .btn-menu {
+      position: relative;
+  
+      display: inline-block;
+  
+      color: var(--color1);
+  
+      font-size: 4em;
+  
+      background-color: transparent;
+  
+      right: 0.5em !important;
+  
+      top: 0em !important;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    header .menu {
+      width: 100%;
+  
+      display: flex;
+  
+      flex-direction: column;
+    }
+  
+    header .menu .logo {
+      width: 100%;
+  
+      display: flex;
+  
+      flex-direction: row;
+  
+      justify-content: space-between;
+  
+      margin-right: 0em;
+  
+      margin-left: 0em;
+  
+      padding: 1em;
+    }
+  
+    .menu .logo p {
+      display: none;
+    }
+  
+    header .menu .enlaces {
+      display: flex;
+  
+      flex-direction: column;
+  
+      text-align: center;
+  
+      width: 100%;
+    }
+  
+    header .menu .btn-menu {
+      position: relative;
+  
+      display: inline-block;
+  
+      color: var(--color1);
+  
+      font-size: 2em;
+  
+      right: 0.5em !important;
+  
+      top: 0em !important;
+    }
+  
+    .headroom--unpinned {
+      transform: translateY(-100%) !important;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    .logoimg{
+        width: 30%;
+    }
+    .logo a h1{
+        font-size: 4em;
+    }
+  }
+  @media screen and (max-width:480px){
+    .logoimg{
+        width: 25%;
+    }
+    .logo a h1{
+        font-size: 3em;
+    }
+  }

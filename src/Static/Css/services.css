@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Judson&family=Lora&family=Newsreader:opsz,wght@6..72,400;6..72,800&family=Noticia+Text&display=swap');
+
+body {
+    font-family: 'Judson', serif;
+}
+
+/*  Main   */
+.section1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.section1-text {
+    width: 50%;
+    padding: 10em 0 10em 15em;
+}
+
+.section1-text h1 {
+    font-size: 3.5em;
+}
+
+.section1-text p {
+    font-size: 1.5em;
+}
+
+.section1-img {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1-img img {
+    width: 50%;
+}
+
+/*  Responsive */
+@media screen and (max-width:1150px) {
+    .section1-img img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .section1 {
+        align-items: center;
+    }
+
+    .section1-img {
+        width: 100%;
+        position: relative;
+        padding: 2em;
+    }
+
+    .section1-img img {
+        width: 80%;
+        opacity: 0.3;
+    }
+
+    .section1-text {
+        width: 70%;
+        opacity: 1;
+        position: absolute;
+        padding: 0;
+    }
+
+    .section1-text h1 {
+        font-size: 4em;
+    }
+
+    .section1-text p {
+        font-size: 2em;
+    }
+}
+@media screen and (max-width:666px){
+    .section1-text h1{
+        font-size: 3em;
+    }
+    .section1-text p{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:470px){
+    .section1-text h1{
+        font-size: 2em;
+    }
+    .section1-text p{
+        font-size: 1em;
+    }
+}
+
+/*  Servicios  */
+.section2-services {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2-title {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #1D1D1D;
+    color: #fff;
+}
+
+.services-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services {
+    width: 30%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    background: #A5C3DE;
+    padding: 2em;
+    overflow: hidden;
+}
+
+.service-img {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    margin: auto;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.service-text {
+    width: 100%;
+}
+
+.service-text h2 {
+    font-size: 1.8em;
+}
+
+.service-text p {
+    font-size: 1.5em;
+}
+
+.service-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.service-buttons button {
+    width: 100%;
+    height: 2.5em;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.links{
+    width: 45%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button1 {
+    background: #000;
+}
+.button1 i{
+    color: #fff;
+}
+
+.button2 {
+    background: #4DAF57;
+}
+
+/*  Responsive	*/
+@media screen and (max-width: 1695px) {
+    .service-buttons button {
+        font-size: 1em;
+        height: 3em;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .services {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .service-buttons button{
+        font-size: 1em;
+        width: 49%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:660px){
+    .services-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services{
+        width: 70%;
+    }
+    .service-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .service-buttons button{
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 470px){
+    .section2-title{
+        font-size: 1.2em;
+    }
+}
+
+/*  Software   */
+.section3-services {
+    width: 100%;
+    overflow: hidden;
+}
+
+.section3-services-title {
+    width: 100%;
+    margin-top: 5em;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 1em;
+    background: #1D1D1D;
+    color: #fff;
+}
+
+.software-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.software {
+    width: 30%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    background: #A5C3DE;
+    padding: 2em;
+}
+
+.software-img {
+    width: 100%;
+    background: #000;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+}
+
+.software-img img {
+    width: 100%;
+}
+
+.software-text {
+    width: 100%;
+}
+
+.software-text h2 {
+    font-size: 1.8em;
+}
+
+.software-text p {
+    font-size: 1.5em;
+}
+
+.software-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.software-buttons button {
+    width: 100%;
+    height: 2.5em;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: right;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+/* Responsive  */
+@media screen and (max-width: 1695px) {
+    .software-buttons button {
+        font-size: 1em;
+        height: 3em;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .software {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .software-buttons button{
+        font-size: 0.7em;
+        width: 49%;
+    }
+}
+@media screen and (max-width:660px){
+    .software-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .software{
+        width: 70%;
+    }
+    .software-buttons{
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .software-buttons button{
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:470px){
+    .section3-services-title{
+        font-size: 1.2em;
+    }
+}
