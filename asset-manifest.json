@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Ltech/static/css/main.10d599fc.css",
+    "main.js": "/Ltech/static/js/main.60a3cfaf.js",
+    "static/media/fa-solid-900.ttf": "/Ltech/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/NLSTI.png": "/Ltech/static/media/NLSTI.2d02a17a4a369635a88c.png",
+    "static/media/Enzo Martinez.png": "/Ltech/static/media/Enzo Martinez.7a26fc99b9116998b23b.png",
+    "static/media/Ltech.png": "/Ltech/static/media/Ltech.dba684caea8092b9ac08.png",
+    "static/media/section1.png": "/Ltech/static/media/section1.35b7b47128f361cc7282.png",
+    "static/media/fa-brands-400.ttf": "/Ltech/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Ltech/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Ltech/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/service1.png": "/Ltech/static/media/service1.0bf88fbc214381c7143d.png",
+    "static/media/logo2.png": "/Ltech/static/media/logo2.1cfbd578c193ee18c498.png",
+    "static/media/software1.png": "/Ltech/static/media/software1.90474fdda346adafe12e.png",
+    "static/media/logowhite.png": "/Ltech/static/media/logowhite.c26085d0ed1e21fe788a.png",
+    "static/media/fa-regular-400.ttf": "/Ltech/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/service2.png": "/Ltech/static/media/service2.86e92505febaf69cb1b4.png",
+    "static/media/software2.png": "/Ltech/static/media/software2.5069e2a5217fb7b450cd.png",
+    "static/media/fa-regular-400.woff2": "/Ltech/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/Logo.png": "/Ltech/static/media/Logo.fbffcbe667f8a6c37472.png",
+    "static/media/fa-v4compatibility.ttf": "/Ltech/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Ltech/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/logo.svg": "/Ltech/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Ltech/index.html",
+    "main.10d599fc.css.map": "/Ltech/static/css/main.10d599fc.css.map",
+    "main.60a3cfaf.js.map": "/Ltech/static/js/main.60a3cfaf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10d599fc.css",
+    "static/js/main.60a3cfaf.js"
+  ]
+}
