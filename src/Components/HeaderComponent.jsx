@@ -49,7 +49,7 @@ export default function HeaderComponent() {
             <header id='header'>
                 <nav className='menu'>
                     <div className='logo'>
-                        <Link to={"/"}><img src={logoblack} alt="L'tech" className='logoimg' />
+                        <Link to={"/Ltech"}><img src={logoblack} alt="L'tech" className='logoimg' />
                             <h1>L'Tech</h1>
                         </Link>
                         <button href="" class="btn-menu" id="btn-menu" >
@@ -57,7 +57,7 @@ export default function HeaderComponent() {
                         </button>
                     </div>
                     <div className='enlaces' id='enlaces'>
-                        <Link to={"/"} id='link'>Inicio</Link>
+                        <Link to={"/Ltech"} id='link'>Inicio</Link>
                         <Link to={"/servicios"} id='link'>Servicios</Link>
                         <Link to={"/contacto"} id='link'>Contacto</Link>
                     </div>
